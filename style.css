@@ -1,5 +1,5 @@
 :root {
-    --accent-color: #ff3400;
+    --accent-color: #ea1538;
 }
 *, *::after, *::before {
     box-sizing: border-box;
@@ -16,5 +16,33 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
+    margin: 0;
 }
 /*****End Typography****/
+
+/*******Button*****/
+.nav_btn {
+    transition: 0.4s;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: var(--accent-color);
+}
+
+.nav_btn:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+/****End Button****/
+
+/*****Hero*****/
+.hero {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(/Component/IMAGES/pexels-pixabay-268533.jpg);
+}
+/****End Hero*****/
