@@ -2,6 +2,7 @@
     --accent-color: #ea1538;
 }
 *, *::after, *::before {
+    margin: 0;
     box-sizing: border-box;
 }
 /*******Typography ******/
@@ -46,3 +47,22 @@ body {
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(/Component/IMAGES/pexels-pixabay-268533.jpg);
 }
 /****End Hero*****/
+
+/*****List*****/
+.list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.list li a:hover {
+    color: var(--accent-color);
+    transition: 0.3s;
+}
+/*****End List*****/
