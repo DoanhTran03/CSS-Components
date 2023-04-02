@@ -66,3 +66,9 @@ body {
     transition: 0.3s;
 }
 /*****End List*****/
+
+/*****Logo****/
+.logo span{
+    color: var(--accent-color);
+}
+/*****End Logo****/
